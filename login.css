@@ -1,0 +1,266 @@
+.container_login {
+  margin: 0;
+  padding: 34px;
+  box-shadow: -1px 2px 20px 0px #bfbcbc;
+  position: relative;
+  top: 311px;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 385px;
+  transform: translate(-50%, -50%);
+  font-family: "Figtree", sans-serif;
+  padding-top: 62px;
+  padding-bottom: 222px;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 133px;
+  margin-bottom: 17px;
+}
+
+.login_title {
+  position: relative;
+  top: -16px;
+}
+
+.arrow {
+  position: relative;
+  left: -191px;
+  top: -41px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.arrow i {
+  color: #ff8717;
+}
+
+input {
+  border-radius: 7px;
+  padding: 7px;
+  width: 103%;
+  border: 1px solid #a5a5a5;
+  outline: #ff8717;
+  font-size: 20px;
+}
+
+.Forgot {
+  color: #383838;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: "Figtree", sans-serif;
+  position: relative;
+  left: -140px;
+  top: 19px;
+}
+
+.Sign {
+  color: #ff8717;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: "Figtree", sans-serif;
+  position: relative;
+  top: 93px;
+  left: -151px;
+  z-index: 1000;
+}
+
+button {
+  border: none;
+  background-color: #ff8717;
+  color: white;
+  font-size: 19px;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  top: 67px;
+  left: 142px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #9c9c9c;
+  font-size: 15px;
+  font-family: "Figtree", sans-serif;
+}
+
+.Arabic {
+  position: relative;
+  top: 212px;
+  left: -148px;
+  color: black;
+  text-decoration: none;
+}
+
+/******************** login Arabic ********************/
+
+.container_login1 {
+  margin: 0;
+  padding: 34px;
+  box-shadow: -1px 2px 20px 0px #bfbcbc;
+  position: relative;
+  top: 311px;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 385px;
+  transform: translate(-50%, -50%);
+  font-family: "Figtree", sans-serif;
+  padding-top: 62px;
+  padding-bottom: 222px;
+  border-radius: 10px;
+}
+
+.logo1 {
+  width: 133px;
+  margin-bottom: 17px;
+}
+
+.login_title1 {
+  position: relative;
+  top: -16px;
+}
+
+.arrow1 {
+  position: relative;
+  left: -191px;
+  top: -41px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.arrow1 i {
+  color: #ff8717;
+}
+
+#email1 {
+  border-radius: 7px;
+  padding: 7px;
+  width: 103%;
+  border: 1px solid #a5a5a5;
+  outline: #ff8717;
+  font-size: 20px;
+  text-align: end;
+}
+
+.Forgot1 {
+  color: #383838;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: "Figtree", sans-serif;
+  position: relative;
+  left: 98px;
+  top: 20px;
+}
+
+.Sign1 {
+  color: #ff8717;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: "Figtree", sans-serif;
+  position: relative;
+  top: 95px;
+  left: 154px;
+  z-index: 1000;
+}
+
+#login2 {
+  border: none;
+  background-color: #ff8717;
+  color: white;
+  font-size: 19px;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  top: 67px;
+  left: -124px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #9c9c9c;
+  font-size: 15px;
+  font-family: "Figtree", sans-serif;
+}
+
+.english {
+  color: black;
+  text-decoration: none;
+  position: relative;
+  top: 212px;
+  left: -164px;
+  font-size: 17px;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+/* sign Up */
+
+#name {
+  text-align: start;
+}
+
+#name2 {
+  position: relative;
+  top: 11px;
+  text-align: start;
+}
+
+#password1 {
+  text-align: end;
+  position: relative;
+  top: 11px;
+}
+
+.Arabic1 {
+  color: black;
+  text-decoration: none;
+  position: relative;
+  top: 208px;
+  left: -140px;
+  font-size: 17px;
+}
+
+.english1 {
+  color: black;
+  text-decoration: none;
+  position: relative;
+  top: 212px;
+  left: -164px;
+  font-size: 17px;
+}
+
+#name3 {
+  position: relative;
+  top: 11px;
+  text-align: end;
+}
+
+#name1 {
+  text-align: end;
+}
+
+#month {
+  position: relative;
+  top: 12px;
+}
+
+#day {
+  position: relative;
+  top: 24px;
+}
+
+
+

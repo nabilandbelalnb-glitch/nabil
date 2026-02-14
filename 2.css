@@ -1,0 +1,152 @@
+/* ===== LUXURY CART ===== */
+
+.luxury-header {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+}
+
+.lux-cart {
+  max-width: 1236px;
+  margin: 60px auto;
+  padding: 0 30px;
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+  gap: 40px;
+  position: relative;
+  left: -234px;
+}
+
+.lux-cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.lux-item {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 25px;
+  padding: 25px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.lux-item:hover {
+  transform: translateY(-5px);
+}
+
+.lux-item img {
+  width: 120px;
+  border-radius: 18px;
+}
+
+.lux-item-info {
+  flex: 1;
+  padding: 0 25px;
+}
+
+.lux-item-info h3 {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.lux-item-info p {
+  opacity: 0.6;
+  margin-top: 5px;
+}
+
+.lux-item-price {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.lux-remove {
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.lux-remove:hover {
+  opacity: 1;
+}
+
+/* SUMMARY */
+
+.lux-summary {
+  background: white;
+  padding: 35px;
+  border-radius: 30px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+}
+
+.lux-summary h2 {
+  margin-bottom: 25px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.summary-row.total {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.lux-btn {
+  display: block;
+  margin-top: 30px;
+  padding: 18px;
+  text-align: center;
+  background: black;
+  color: white;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: background.3s;
+}
+
+.lux-btn:hover {
+  background: #222;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .lux-cart {
+    grid-template-columns: 1fr;
+  }
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 14px;
+  font-family: system-ui;
+}
+
+.shop {
+  text-decoration: none;
+  color: black;
+  display: inline-flex;
+  gap: 20px;
+  position: relative;
+  top: -54px;
+  left: 20px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+* {
+  font-family: system-ui;
+}
+
+a:hover {
+  color: #fc8819;
+  transition: 0.4s ease-out;
+  transition: 0.4s ease-in;
+}
